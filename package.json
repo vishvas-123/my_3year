@@ -1,0 +1,26 @@
+{
+  "name": "skillbridge",
+  "version": "1.0.0",
+  "description": "SkillBridge — Student Skill Exchange & Project Collaboration Platform",
+  "private": true,
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start": "npm --prefix server start",
+    "build": "npm --prefix client run build",
+    "db:push": "npm --prefix server run db:push",
+    "db:seed": "npm --prefix server run db:seed",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "skill-exchange",
+    "peer-learning",
+    "react",
+    "express",
+    "postgresql",
+    "prisma",
+    "socketio"
+  ],
+  "author": "SkillBridge Team",
+  "license": "MIT"
+}
